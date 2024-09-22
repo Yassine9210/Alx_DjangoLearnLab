@@ -16,4 +16,3 @@ urlpatterns = [
 urlpatterns += [
     path('feed/', PostViewSet.as_view({'get': 'feed'})),
 ]
-
